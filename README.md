@@ -19,7 +19,7 @@
 http://acolab.ie.nthu.edu.tw/news_network/ICDE-db.rar
 
 Due to the privacy issue, the user browsing history record is not attached.
-You can sample your own browsing history data from the news data.
+You can sample your own browsing history record from the news data.
 
 
 ## Model
