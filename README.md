@@ -3,6 +3,7 @@
 ## References
 - GCN: https://github.com/tkipf/pygcn
 - Sentence-BERT: https://github.com/UKPLab/sentence-transformers
+- IsoRankN: http://cb.csail.mit.edu/cb/mna/
 
 ## Usage
 - `single_news_network.py` : construct interaction-edges 
@@ -12,3 +13,7 @@
 - `recommendation.py` : personalized recommendations
 - `user_network.py` : user modeling
 - `utils.py` : some utils functions
+
+
+## Data
+http://acolab.ie.nthu.edu.tw/news_network1/ICDE-db.rar
