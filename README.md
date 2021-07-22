@@ -1,8 +1,8 @@
 # ICDE-NRS
 
 ## References
-GCN: https://github.com/tkipf/pygcn
-Sentence-BERT: https://github.com/UKPLab/sentence-transformers
+- GCN: https://github.com/tkipf/pygcn
+- Sentence-BERT: https://github.com/UKPLab/sentence-transformers
 
 ## Usage
 - `single_news_network.py` : construct interaction-edges 
