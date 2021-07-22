@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  </head>
+  
+  <body style="width:750px;">
+
+    <style>
+      h6 {font-size: 18px; font-weight: bold; padding: 6px; color: #303030;}
+      a {font-size: 12px;}
+    </style>
+
+    <div class="container-fluid">
+      <div class="bg-light shadow p-3 rounded">
+        <!-- <a href="https://www.chinatimes.com/"> -->
+          <h6>CHT news</h6>
+        <!-- </a> -->
+        <div id='cht-news-content' class="list-group"></div>
+      </div>
+
+      <br>
+      <div class="bg-light shadow p-3 rounded">
+        <!-- <a href="https://www.cna.com.tw/"> -->
+          <h6>CNA news</h6>
+        <!-- </a> -->
+        <div id='cna-news-content' class="list-group"></div>
+      </div>
+
+      <br>
+      <div class="bg-light shadow p-3 rounded">
+        <!-- <a href="https://www.ltn.com.tw/"> -->
+          <h6>LBT news</h6>
+        <!-- </a> -->
+        <div id='lbt-news-content' class="list-group"></div>
+      </div>
+
+      <br>
+      <div class="bg-light shadow p-3 rounded">
+        <!-- <a href="https://www.setn.com/"> -->
+          <h6>SETN news</h6>
+        <!-- </a> -->
+        <div id='setn-news-content' class="list-group"></div>
+      </div>
+
+      <br>
+      <div class="bg-light shadow p-3 rounded">
+        <!-- <a href="https://news.tvbs.com.tw/"> -->
+          <h6>TVBS news</h6>
+        <!-- </a> -->
+        <div id='tvbs-news-content' class="list-group"></div>
+      </div>
+
+      <br>
+      <div class="bg-light shadow p-3 rounded">
+        <!-- <a href="https://udn.com/news/index"> -->
+          <h6>UDN news</h6>
+        <!-- </a> -->
+        <div id='udn-news-content' class="list-group"></div>
+      </div>
+
+      <br>
+      <div>
+        <div class="row">
+          <div class="col">
+            <h6 style="text-align:right;">輸入姓名</h6>
+          </div>
+          <div class="col-6">
+            <input id="user-name" type="text" class="form-control form-control-sm">
+          </div>
+          <div class="col">
+            <button id="uploadButton" class="btn btn-outline-primary mb-3 btn-sm">上傳瀏覽紀錄</button>
+          </div>
+        </div>
+        <br>
+
+<!--         <div style="text-align:right;">
+          <button id="downloadButton" class="btn btn-outline-primary btn-sm">Download Excel</button>
+        </div> -->
+
+      </div>
+    </div>
+
+    
+    <script src="news.js"></script>
+  </body>
+</html>
