@@ -16,4 +16,11 @@
 
 
 ## Data
-http://acolab.ie.nthu.edu.tw/news_network1/ICDE-db.rar
+http://acolab.ie.nthu.edu.tw/news_network/ICDE-db.rar
+
+Due to the privacy issue, the user browsing history record is not attached.
+You can sample your own browsing history data from the news data.
+
+
+## Model
+modified Sentence-BERT: http://acolab.ie.nthu.edu.tw/news_network/sbert-model.rar
